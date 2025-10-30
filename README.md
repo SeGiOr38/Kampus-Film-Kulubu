@@ -12,7 +12,7 @@ Bu proje, **Süleyman Demirel Üniversitesi Film Kulübü** için geliştirilen 
 - ✅ Sayfalama (Pagination) – ileri/geri/ilk/son navigasyon
 - ✅ Detay sayfası – dizi bilgileri + bölüm listesi
 - ✅ Koşullu render (Yükleniyor, hata, boş liste)
-- ✅ Modern responsive tasarım + animasyonlar + ikonlar
+  
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
