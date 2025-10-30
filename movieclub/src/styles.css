@@ -1,0 +1,119 @@
+/* Temel Ayarlar */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+/* Arama Kutusu */
+input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Filtreler */
+select, input[type="number"] {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+  transform: scale(1.05);
+}
+
+/* TV Card */
+.tv-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 15px;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  transition: transform 0.3s ease;
+}
+
+.tv-card:hover {
+  transform: translateY(-5px);
+}
+
+.tv-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tv-card h3 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #0077cc;
+}
+
+/* Watchlist Panel */
+.watchlist-panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.pagination button {
+  margin: 0 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tv-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: center;
+  }
+}
